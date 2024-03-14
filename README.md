@@ -1,6 +1,6 @@
-# Sky Pulse Weather App
+# Feature Gallery App
 
-![](sky-pulse.jpg)
+![](feature-gallery.webp)
 
 
 # Application Features
