@@ -60,6 +60,7 @@ onMounted(() => {
         <input 
         type="text" 
         placeholder="e.g. Go grocery shopping." 
+        required
         v-model="input_content"/>
         <h3>Pick a category</h3>
         <div class="options">
