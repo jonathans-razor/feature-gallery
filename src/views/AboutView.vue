@@ -49,20 +49,19 @@ onMounted(() => {
 
   <main class="app">
     <section class="greeting">
-      <h2 class="title">
-        What's up, <input type="text" placeholder="Name here" v-model="name"/>
-      </h2>
+      <h3 class="title">
+        You can tell it's using local storage because if you refresh the page, it doesn't disappear.
+      </h3>
     </section>
 
     <section class="create-todo">
-      <h3>CREATE A TODO</h3>
+      <h3>What would you like to add to your todo list?</h3>
       <form @submit.prevent="addTodo">
-        <h4>What's on your todo list?</h4>
         <input 
         type="text" 
-        placeholder="e.g. Make a video" 
+        placeholder="e.g. Go grocery shopping." 
         v-model="input_content"/>
-        <h4>Pick a category</h4>
+        <h3>Pick a category</h3>
         <div class="options">
             <label>
               <input 
@@ -87,7 +86,7 @@ onMounted(() => {
       </form>
     </section>
     <section class="todo-list">
-      <h3>TODO LIST</h3> 
+      <h3>Todo List</h3> 
       <div class="list">
 
         <div v-for="todo in todos_asc" :key="todo.createdAt" :class="`todo-item ${todo.done && 'done'}`">
