@@ -1,13 +1,6 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-    </ul>
     <h3>Ecosystem</h3>
     <ul>
       <li><a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli</a></li>
@@ -16,6 +9,13 @@
       <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
+    </ul>
+    <h3>Essential Links</h3>
+    <ul>
+      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Docs</a></li>
+      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
+      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
+      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
     </ul>
     <h3>Installed CLI Plugins</h3>
     <ul>

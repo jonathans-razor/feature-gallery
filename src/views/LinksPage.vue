@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div>
     <HelloWorld msg=""/>
   </div>
 </template>
@@ -9,7 +9,7 @@
 import HelloWorld from '@/components/LinksView.vue'
 
 export default {
-  name: 'ContactView',
+  name: 'LinksPage',
   components: {
     HelloWorld
   }
