@@ -9,7 +9,7 @@
 import HelloWorld from '@/components/LinksComponent.vue'
 
 export default {
-  name: 'LinksPage',
+  name: 'LinksView',
   components: {
     HelloWorld
   }
