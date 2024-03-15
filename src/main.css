@@ -118,7 +118,7 @@ input:checked~.bubble::after {
   margin: 0 auto;
   display: block;
   width: 30%;
-  font-size: 1.125rem;
+  font-size: 1rem;
   padding: 1rem 1.5rem;
   color: #FFF;
   background-color: var(--primary);
@@ -158,7 +158,7 @@ input:checked~.bubble::after {
 
 .todo-item .todo-content input {
   color: var(--dark);
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 .todo-item .actions {
