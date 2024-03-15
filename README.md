@@ -1,8 +1,5 @@
 # Feature Gallery App
 
-![](feature-gallery.svg)
-
-
 # Application Features
 
 **Map Integration**: Display a map where users can select any location.
