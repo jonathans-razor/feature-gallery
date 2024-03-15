@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <HelloWorld msg="Welcome to your contact page Jonathan."/>
+    <HelloWorld msg=""/>
   </div>
 </template>
 
