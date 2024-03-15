@@ -10,7 +10,7 @@
 
 <template>
       <v-navigation-drawer v-model="drawer" :rail="rail" permanent @click="rail = false">
-          <v-list-item :prepend-avatar="require('@/assets/feature-gallery.webp')" title="Feature Gallery" nav>
+          <v-list-item :prepend-avatar="require('@/assets/feature-gallery.svg')" title="Feature Gallery" nav>
           <template v-slot:append>
             <v-btn variant="text" icon="mdi-chevron-left" @click.stop="rail = !rail"></v-btn>
           </template>
@@ -30,6 +30,12 @@
           <v-list-item prepend-icon="mdi-dialpad" title="Gray Gallery" 
             value="gray"
             @click="selectOption(false)"
+          >
+
+          </v-list-item>
+          <v-list-item prepend-icon="mdi-dialpad" title="Local Storage" 
+            value="tense"
+            @click="selectOption(22)"
           >
 
           </v-list-item>
