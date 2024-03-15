@@ -1,6 +1,6 @@
 # Feature Gallery App
 
-![](feature-gallery.webp)
+![](feature-gallery.svg)
 
 
 # Application Features
