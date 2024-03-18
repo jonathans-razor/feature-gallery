@@ -1,8 +1,8 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
+    <router-link to="/map">Map</router-link> |
     <router-link to="/local-storage">Local Storage</router-link> |
-    <router-link to="/careers">Careers</router-link> |
     <router-link to="/links">Links</router-link> 
   </nav>
   <router-view/>

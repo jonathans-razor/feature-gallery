@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h1>Careers Page</h1>
+    <h1>Map Page</h1>
   </div>
 </template>
