@@ -3,36 +3,25 @@
   --business: #a19b58;
   --personal: var(--primary);
   --light: #EEE;
-  --grey: #888;
-  --dark: #313154;
   --danger: #ff5b57;
 }
 
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  font-family: 'montserrat', sans-serif;
 }
 
 input:not([type="radio"]):not([type="checkbox"]),
 button {
-  appearance: none;
   border: none;
-  outline: none;
-  background: none;
-  cursor: initial;
 }
 
 body {
   background: var(--light);
-  color: var(--dark);
 }
 
 section {
   margin-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1em;
 }
 
 h3 {
@@ -43,15 +32,13 @@ h3 {
   width: 50%;
   font-size: 1rem;
   padding: .5rem .5rem;
-  color: var(--dark);
-  background-color: #FFF;
   margin-bottom: 1.5rem;
 }
 
 .create-todo .options {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  grid-gap: .7rem;
   margin-bottom: 1.5rem;
 }
 
@@ -82,15 +69,10 @@ input[type="checkbox"] {
 
 .bubble.personal {
   border-color: var(--personal);
-  box-shadow: var(--personal-glow);
 }
 
 .bubble::after {
   content: "";
-  display: block;
-  opacity: 0;
-  width: 0px;
-  height: 0px;
   background-color: var(--business);
   box-shadow: var(--business-glow);
   border-radius: 50%;

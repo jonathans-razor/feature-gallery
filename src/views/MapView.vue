@@ -12,6 +12,10 @@ const mapContainer = ref();
 onMounted(() => {
   console.log("* onMounted called.");
   map.value = L.map(mapContainer.value).setView([51.505, -0.09], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map.value);
 });
 
 function getLocation(){
@@ -35,5 +39,8 @@ function getLocation(){
     <h2>Map Page</h2>
   </div>
   <button @click="getLocation()">Get Location</button>
+  <div>
+hi
   <div ref="mapContainer" style="width: 400px;height: 400px;"></div>
+  </div>
 </template>
