@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h2>Map Page</h2>
+    <h2>Form Validation Page</h2>
   </div>
 </template>

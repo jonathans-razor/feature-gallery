@@ -7,7 +7,7 @@
     </h2>
     <h3>
       <br>
-      A Vue Learning Tool
+      Vue Demo
     </h3>
   </div>
 </template>
