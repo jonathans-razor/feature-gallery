@@ -4,9 +4,11 @@
     <router-link to="/map">Map</router-link> |
     <router-link to="/form-validation">Form Validation</router-link> |
     <router-link to="/local-storage">Local Storage</router-link> |
-    <router-link to="/links">Links</router-link> 
+    <router-link to="/links">Links</router-link>
   </nav>
-  <router-view/>
+  <br />
+  <br />
+  <router-view />
 </template>
 
 <style>
@@ -18,9 +20,6 @@
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
-}
 
 nav a {
   font-weight: bold;
