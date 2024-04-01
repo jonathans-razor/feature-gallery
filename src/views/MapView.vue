@@ -37,6 +37,8 @@ function getLocation(){
 <template>
   <div>
     <h2>Map Page</h2>
+    <br/>
+    <h3 style="color: red;">Had integration issues.</h3>
   </div>
   <button @click="getLocation()">Get Location</button>
   <div>
