@@ -1,10 +1,11 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/map">Map</router-link> |
-    <router-link to="/form-validation">Form Validation</router-link> |
     <router-link to="/local-storage">Local Storage</router-link> |
-    <router-link to="/links">Links</router-link>
+    <router-link to="/search">Search</router-link> |
+    <router-link to="/links">Links</router-link> |
+    <router-link to="/map">Map</router-link> |
+    <router-link to="/form-validation">Form Validation</router-link>
   </nav>
   <br />
   <br />

@@ -35,6 +35,12 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/MapView.vue"),
   },
   {
+    path: "/search",
+    name: "search",
+    component: () =>
+      import("../views/SearchView.vue"),
+  },
+  {
     path: "/form-validation",
     name: "form-validation",
     // route level code-splitting
@@ -42,7 +48,7 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/FormValidationView.vue"),
-  }
+  },
 ];
 
 const router = createRouter({
