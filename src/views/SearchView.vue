@@ -10,9 +10,13 @@ const searchQuery = ref('')
 const gridColumns = ['name', 'power']
 const gridData = [
   { name: 'Chuck Norris', power: Infinity },
+  { name: 'Mike Tyson', power: 9100 },
   { name: 'Jon Jones', power: 9000 },
-  { name: 'Khabib Nurmagomedov', power: 8200 },
-  { name: 'Conor McGregor', power: 6700 },
+  { name: 'Roy Jones Jr.', power: 7900 },
+  { name: 'Khabib Nurmagomedov', power: 7850 },
+  { name: 'Conor McGregor', power: 6900 },
+  { name: 'Muhuammad Ali', power: 8600 },
+  { name: 'Floyd Mayweather', power: 6800 },
   { name: 'Francis Ngannou', power: 8500 },
   { name: 'Sean OMalley', power: 6000 },
   { name: 'Dominic Reyes', power: 8100 },
