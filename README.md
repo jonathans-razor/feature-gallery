@@ -4,8 +4,6 @@
 
 **Local Storage**: Save user preferences or recent searches using local storage.
 
-qq
-
 **Map Integration**: Display a map where users can select any location.
 
 **Date Picker**: Allow users to choose a specific date for weather information.
