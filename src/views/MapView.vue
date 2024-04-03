@@ -42,7 +42,7 @@ function getLocation(){
   </div>
   <button @click="getLocation()">Get Location</button>
   <div>
-hi
+
   <div ref="mapContainer" style="width: 800px;height: 600px;"></div>
   </div>
 </template>
